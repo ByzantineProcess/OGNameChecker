@@ -97,7 +97,7 @@ def runservicebasic(service:bool, ask:str):
 
 def askservicebasic(type:bool):
     print("\n\nWhich service should I use?")
-    print("[1] PlayerDB (recommended, will show names that are available later)")
+    print("[1] PlayerDB (will show names that are available later)")
     print("[2] MineTools (will !NOT! show names that are available later, also kinda slow)")
     print("[3] Mojang (will show names that are available later, fastest despite deing ratelimited)")
     ask = input("\n[1/2/3]: ")
